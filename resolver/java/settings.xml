@@ -25,8 +25,8 @@
 		<!-- personal access token with permission: read:packages -->
 		<server>
 			<id>github-did-common-java</id>
-			<username>lzxm160</username>
-			<password>0632e9e931ff4f7c7f586d8a6946dd71ef82f6b4</password>
+			<username>${env.GITHUB_READ_PACKAGES_OWNER}</username>
+			<password>${env.GITHUB_READ_PACKAGES_TOKEN}</password>
 		</server>
 	</servers>
 </settings>
